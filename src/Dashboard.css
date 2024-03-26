@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Inter;
+}
+.container{
+    width: 98vw;
+    height: 100vh;
+}
+body{
+    background-color: #000;
+}
+ul{
+    color: white;
+}
+.bitcoin-info{
+    color: white;
+}
+.column{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 24px;
+    margin-top: 14px;
+}
+.chart{
+    width: 40%;
+    background-color: #2B2424;
+    color: white;
+    border-radius: 24px;
+}
+.logo{
+    width: 5%;
+    margin-right: 10px;
+}
+.logo-container{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+.name{
+    font-size: 46px;
+    font-family: Inter;
+    margin-left: 15px;
+    font-weight: 700;
+    
+}
+.chart-big{
+    height: 210px;
+}
+.chart-info{
+    margin-left: 25px;
+}
+.asset-name{
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.price{
+    font-size: 50px;
+    font-weight: 700;
+}
+.circle-chart{
+    width: 27%;
+    border-radius: 24px;
+    background-color: #2B2424;
+}
+.search-assets{
+    width: 27%;
+    background-color: #2B2424;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+}
+.asset-search{
+    width: 70%;
+    font-size: 30px;
+    height: 30px;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-top: 24px;
+    border-radius: 15px;
+}
+.market-overview{
+    width: 70%;
+    background-color: #2B2424;
+    color: white;
+    border-radius: 24px;
+}
+.market{
+    margin-top: 24px;
+    margin-left: 24px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.balance{
+    width: 25%;
+    background-color: #2B2424;
+    border-radius: 24px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.coin{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.name-section{
+    margin-left: 24px;
+    width: 25%;
+}
+.market-cap{
+    margin-right: 24px;
+}
+.balance-text{
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.balance-money{
+    font-size: 120px;
+}
+.chrt{
+    width: 99%;
+    height: 100%;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-self: flex-start;
+}
+.column2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.priceBlock{
+    margin-right: 54px;
+}
