@@ -74,7 +74,9 @@ ul{
     background-color: #2B2424;
     border-radius: 24px;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
 }
 .asset-search{
     width: 70%;
@@ -135,15 +137,44 @@ ul{
 }
 .row{
     display: flex;
+    width: 100%;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-self: flex-start;
 }
 .column2{
-    width: 50%;
+    width: 65%;
     display: flex;
     flex-direction: column;
 }
 .priceBlock{
-    margin-right: 54px;
+    width: 25%;
+    text-align: left;
+}
+.icon{
+    width: 8%;
+    margin-right: 5px;
+}
+.image-name{
+    display: flex;
+    align-items: center;
+}
+.coin-name{
+    margin-bottom: 12px;
+}
+.column-place{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+.AIO{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    border-top: solid 1px;
 }

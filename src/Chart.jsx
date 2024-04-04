@@ -18,6 +18,7 @@ const Chart = () => {
     }, []);
 
     return (
+        
         <div className='chrt'>
             <ResponsiveContainer>
                 <LineChart
@@ -27,7 +28,7 @@ const Chart = () => {
                     <YAxis />
                     <CartesianGrid stroke="#fff" />
                     <Legend />
-                    <Tooltip />
+                    <Tooltip  />
                     <Line type="monotone" dataKey="price" stroke="#8884d8" dot={false} activeDot={{ r: 8 }} />
                 </LineChart>
             </ResponsiveContainer>
